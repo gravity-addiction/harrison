@@ -1,0 +1,84 @@
+body{ background-color:#FFFFFF; background-image:none; color:#000000 }
+  #ad{ display:none;}
+  #leftbar{ display:none;}
+  #contentarea{ width:100%;}
+.noprint { display: none; }
+
+div#printsection {
+	display:block;
+  width:100%;
+  padding: 0px;
+	border:1px solid black;
+	background-color:white;
+  //-webkit-transform: rotate(90deg);
+  //-moz-transform: rotate(90deg);
+   
+  }
+  
+
+.printHeader {
+  position: relative;
+  font-size: 20pt;
+  font-weight: bold;
+  text-align:center;
+  margin: 0;
+  padding: 0;
+}
+.printFooter {
+  clear: left;
+  position: relative;
+  bottom: -35px;
+  font-size: 10pt;
+  text-align:center;
+  margin: 0;
+  padding: 0;
+}
+
+.manifest_pane {
+ position:block;
+ width:225px;
+ height:578px;
+ top:0px;
+ left:0px;
+ border-top:1px solid black;
+ margin:50px;
+ float:left;
+ list-style-type: none;
+}
+.manifest_header {
+	display: none;
+}
+#manifest_sheet_controls {
+	display:none;
+}
+
+.manifest_entry {
+  font-size:12px;
+  font-weight:normal;
+  font-family:arial;
+  padding:3px;
+  list-style-type: none; 
+}
+
+
+.box_header {
+  font-size:14px;
+  font-weight:bold;
+  text-align:center;
+}
+
+	
+.manifest_group, .jumperlist_group, .jumperdatabase_group { list-style-type: none; margin: 0; padding: 0; border-bottom:1px solid black; }
+.manifest_group { border-left:1px solid black; border-right:1px solid black; }
+#manifest_sheet li, #jumperlist_sheet li, #jumperdatabase_sheet li { margin: 1px; padding: 0.4em; }
+#manifest_sheet .right_number {
+  text-align:left;
+  float:right;
+  width:12px;
+}
+#manifest_sheet .left_number {
+  margin-right:7px;
+  text-align:left;
+  float:left;
+  width:29px;
+}

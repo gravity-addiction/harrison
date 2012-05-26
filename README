@@ -1,0 +1,25 @@
+echo "
+###################################
+#
+# DzManifest Software Application #
+#
+# (c) Gary Taylor, 2010           #
+# gravity.addiction@gmail.com     #
+# http://skyscore.me              #
+###################################
+
+Manifesting Calendar for big ways currently.. it started out for a single
+otter sized dropzone manifest. Migrated to Big Way manifesting.
+
+you're here cause you've already forever borrowed this software, or at 
+least thinking about it. couple pro-tips for you.
+
+take the entire app directory, you'll need absolutely everything in it.
+
+it's mostly javascript, it will run standalone, or if it's on a webserver 
+post back to the .php or .aspx files for processing the data directory
+files.
+
+Enjoy.
+EFS, BSBD
+"
